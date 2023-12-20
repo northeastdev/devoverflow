@@ -6,7 +6,7 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Devoverflow",
+  title: "DevOverflow",
   description: "A stackoverflow clone built using Next.js 14",
 };
 
