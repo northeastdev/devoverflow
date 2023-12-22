@@ -38,10 +38,10 @@ export default function Theme() {
               />
             )}
           </MenubarTrigger>
-          <MenubarContent className="absolute right-[-3rem] mt-3 min-w-[120px] rounded border py-2 dark:border-dark-400 dark:bg-dark-300">
+          <MenubarContent className="absolute right-[-3rem] mt-3 min-w-[120px] rounded border bg-white py-2 dark:border-dark-400 dark:bg-dark-300">
             {themes.map((item) => (
               <MenubarItem
-                className="flex items-center gap-4 px-2.5 py-2 hover:cursor-pointer dark:focus:bg-dark-400"
+                className="flex items-center gap-4 px-2.5 py-2 hover:cursor-pointer focus:bg-gray-100 dark:focus:bg-dark-400"
                 key={item.value}
                 onClick={() => {
                   setTheme(item.value);
